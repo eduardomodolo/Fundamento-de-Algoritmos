@@ -4,7 +4,7 @@ Peso = float(72.7 * Altura) - 58
 print("Seu peso ideal é: ", Peso)
 
 """"exercício 2"""
-QtdKm = int(input("Informe a quantidade de quilômetros percorridos: "))
+QtdKm = float(input("Informe a quantidade de quilômetros percorridos: "))
 QtdDias = int(input("Informe a quantidade de dias no qual o carro foi alugado: "))
 Dias = QtdDias * 60
 Quil = QtdKm * float(0.15)
